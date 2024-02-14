@@ -1,0 +1,9 @@
+beautifulsoup4
+matplotlib
+nltk
+pandas
+requests
+seaborn
+streamlit
+textblob
+wordcloud
