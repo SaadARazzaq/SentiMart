@@ -40,7 +40,7 @@ def reviewsHtml(url, len_page):
             'pageNumber': page_no,
         }
         response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response.text, 'lxml')
         soups.append(soup)
     return soups
 
