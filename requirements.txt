@@ -7,4 +7,4 @@ seaborn
 streamlit
 textblob
 wordcloud
-lxml
+lxml>=4.6.3
