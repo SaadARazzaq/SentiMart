@@ -7,3 +7,4 @@ seaborn
 streamlit
 textblob
 wordcloud
+lxml
