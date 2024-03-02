@@ -40,7 +40,7 @@ def reviewsHtml(url, len_page):
             'pageNumber': page_no,
         }
         response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'lxml')
+        soup = BeautifulSoup(response.text, 'html.parser')
         soups.append(soup)
     return soups
 
@@ -227,7 +227,9 @@ def visualize_time_series(df):
     with st.expander("💡Info"):
         st.write(info_text)
         
-    df['Date'] = pd.to_datetime(df['Date'])
+    df['Date'] = pd.to_datetime(df['Date'], format="%d/%m/%Y")
+
+    # df['Date'] = pd.to_datetime(df['Date'])
     df['Sentiment'] = pd.Categorical(df['Sentiment'], categories=['Negative', 'Neutral', 'Positive'], ordered=True)
     df_time_series = df.groupby([pd.Grouper(key='Date', freq='D'), 'Sentiment']).size().unstack(fill_value=0)
     df_time_series.plot(kind='line', stacked=True, figsize=(10, 6))
