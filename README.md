@@ -3,6 +3,11 @@
 ## Description ℹ️:
 The Amazon Reviews Sentiment Analysis App is a user-friendly web application designed to analyze sentiment in Amazon product reviews. This is done by using advanced natural language processing (NLP) techniques, the app provides valuable insights into customer sentiments, helping users understand the reception of products on the Amazon platform. Whether you're a shopper seeking insights before making a purchase decision or a seller looking to gauge customer feedback, this app offers an intuitive interface for sentiment analysis.
 
+## Demo Video
+
+[![image](https://github.com/SaadARazzaq/SentiMart/assets/123338307/68a2dadf-f64a-4f5b-b5e1-3fcb76199655)
+](https://www.linkedin.com/feed/update/urn:li:activity:7153314889896280066/)
+
 ## Libraries Used 📚:
 - `requests`: For making HTTP requests to retrieve Amazon product review pages.
 - `pandas`: For data manipulation and analysis.
