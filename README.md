@@ -5,8 +5,7 @@ The Amazon Reviews Sentiment Analysis App is a user-friendly web application des
 
 ## Demo Video
 
-[![image](https://github.com/SaadARazzaq/SentiMart/assets/123338307/68a2dadf-f64a-4f5b-b5e1-3fcb76199655)
-](https://www.linkedin.com/feed/update/urn:li:activity:7153314889896280066/)
+[![PRODUCT REVIEW](https://github.com/SaadARazzaq/SentiMart/assets/123338307/caae7a71-9c4c-46d0-9f33-1a6c1f6051e0)](https://www.linkedin.com/feed/update/urn:li:activity:7153314889896280066/)
 
 ## Libraries Used 📚:
 - `requests`: For making HTTP requests to retrieve Amazon product review pages.
